@@ -68,7 +68,7 @@ specific Git repository by changing the `Allowed` value stated next to the repos
 
 N.B : 
 - AutoPull will detect new folders and ask the user if they want to allow the Auto-update .
-- You can include folders not present in the src folder by adding their path in `AllowedRepos` followed by ` = Allowed`. Don't change the file structure. This can lead to a break of the script, read the Troubleshooting section if this occurs .
+- You can include folders not present in src by adding their path in `AllowedRepos` followed by ` = Allowed`. Don't change the file structure. This can lead to a break of the script, read the Troubleshooting section if this occurs .
 
 ## Troubleshooting
 
