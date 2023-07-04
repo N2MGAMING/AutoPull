@@ -65,9 +65,10 @@ Debugging = off
 
 2. `AllowedRepos` file contains all the repositories that AutoPull detected in the src folder specified in `AutoPull.conf`. The user can disable the update of a
 specific Git repository by changing the `Allowed` value stated next to the repository's path in this file. As a result, the script will ignore this repository.
-N.B : - AutoPull will detect new folders and ask the user if they want to allow the Auto-update
-      - You can include folders not present in the src folder by adding their path in `AllowedRepos` followed by ` = Allowed`. Make sure not to change the file 
-      structure. This can lead to a break of the scriptn read the Troubleshooting section if this occurs .
+
+N.B : 
+- AutoPull will detect new folders and ask the user if they want to allow the Auto-update .
+- You can include folders not present in the src folder by adding their path in `AllowedRepos` followed by ` = Allowed`. Don't change the file structure. This can lead to a break of the script, read the Troubleshooting section if this occurs .
 
 ## Troubleshooting
 
